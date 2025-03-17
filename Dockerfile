@@ -1,5 +1,5 @@
 # 使用官方的 OpenJDK 17 镜像作为基础镜像
-FROM arm64v8/openjdk:17-ea-16-jdk
+FROM registry.cn-hangzhou.aliyuncs.com/lycodeing/maven-jdk17-arm64:v20241110
 
 # 设置工作目录
 WORKDIR /app
